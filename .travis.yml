@@ -16,7 +16,7 @@ install:
   - npm install
 
 env:
-  - GROUP=nainauy COMMIT="${TRAVIS_COMMIT}" TAG="${TRAVIS_TAG}" REPO=front-end;
+  - GROUP=chaiya COMMIT="${TRAVIS_COMMIT}" TAG="${TRAVIS_TAG}" REPO=front-end;
 
 script:
   - make test
